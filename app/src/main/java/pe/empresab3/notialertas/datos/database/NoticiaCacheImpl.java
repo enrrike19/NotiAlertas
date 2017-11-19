@@ -21,6 +21,7 @@ public class NoticiaCacheImpl implements NoticiaCache {
         RealmResults<NoticiaEntity> results = query.findAll();
 //        realm.close();
         return results;
+
     }
 
     @Override
